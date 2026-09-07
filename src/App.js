@@ -67,7 +67,7 @@ function App(){
     return(<div>
         <Header/>
         {(!createPost) && (
-            <button onClick={()=>{setCreatePost(!createPost)}}>+ Create New Blog My Guy</button>
+            <button onClick={()=>{setCreatePost(!createPost)}}>+ Create New My Guy</button>
         )}
         {createPost && (
           <div>
